@@ -1,0 +1,172 @@
+.account {
+  margin-left: 8rem;
+}
+.account p {
+  margin-bottom: 10px;
+  font-size: 12px;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: 1px solid;
+  width: 80%;
+  margin-left: 8rem;
+}
+.container .overview {
+  width: 20%;
+  justify-content: center;
+  margin-top: -2rem;
+}
+.heading {
+  margin-top: 2rem;
+  margin-left: 3rem;
+}
+.container .details {
+  width: 70%;
+  justify-content: center;
+  margin-top: 19rem;
+}
+.overview .overview_ {
+  padding: 10px;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.overview .overview_1 {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.overview .overview_2 {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.overview .overview_3 {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.overview .overview_4 {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.overview {
+  border-right: 1px solid;
+}
+.details .form-details {
+  border: 1px solid;
+  margin-top: -18rem;
+  margin-left: 1rem;
+  padding: 20px;
+}
+.number-change {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid;
+  margin-top: 2rem;
+  padding: 1rem;
+  width: 90%;
+  margin-left: 1rem;
+}
+.number-change button {
+  width: 250px;
+  background: none;
+}
+.full_name {
+  margin-top: 2rem;
+  padding: 1rem;
+}
+.full_name fieldset {
+  width: 90%;
+  padding: 0.5rem;
+  margin-top: -2rem;
+  padding-right: 3.3rem;
+}
+.full_name input {
+  border: none;
+  padding-bottom: 5px;
+}
+.email-box {
+  border: 1px solid;
+  margin-top: 0.1rem;
+  padding: 0.8rem;
+  width: 90%;
+  margin-left: 1rem;
+  padding-right: 1.2rem;
+}
+.email-box input {
+  border: none;
+  padding-bottom: 2px;
+}
+.male-female {
+  display: flex;
+  width: 95%;
+  margin-top: 1rem;
+  margin-left: 1rem;
+  border: 1px solid;
+}
+.male-female button {
+  width: 90%;
+  height: 40px;
+  background: #fff;
+  padding: 0 50px 0 50px;
+  border: none;
+}
+.male-female button:nth-child(1) {
+  border-right: 1px solid;
+}
+.male-female button:nth-child(2) {
+  border-right: 1px solid;
+}
+.birthdate {
+  border: 1px solid;
+  margin-top: 1rem;
+  padding: 0.8rem;
+  width: 90.5%;
+  margin-left: 1rem;
+  padding-right: 1.2rem;
+}
+.birthdate input {
+  border: none;
+}
+.mobile-number2 {
+  border: 1px solid;
+  margin-top: 1rem;
+  padding: 0.8rem;
+  width: 90.5%;
+  margin-left: 1rem;
+  padding-right: 1.2rem;
+}
+.alternate {
+  margin-left: 1rem;
+  margin-top: 1rem;
+}
+.alternate p {
+  font-size: 15px;
+  font-weight: 600;
+}
+.mobile-number2 input {
+  border: none;
+}
+.hint-name {
+  border: 1px solid;
+  margin-top: 1rem;
+  padding: 0.8rem;
+  width: 90.5%;
+  margin-left: 1rem;
+  padding-right: 1.2rem;
+}
+.hint-name input {
+  border: none;
+}
+.save-btn button {
+  margin-top: 1rem;
+  padding: 0.8rem;
+  width: 95.5%;
+  margin-left: 1rem;
+  padding-right: 1.2rem;
+  background: #ff3c6f;
+  color: #fff;
+  border: none;
+}
+.number i{
+    color: #047c5a;
+}

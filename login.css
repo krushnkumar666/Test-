@@ -1,0 +1,60 @@
+body {
+  background: #fdefea;
+}
+#sec-log {
+  display: flex;
+  justify-content: center;
+}
+.container {
+  background: #fff;
+  padding-bottom: 2rem;
+}
+.img-div img {
+  width: 400px;
+}
+.details-div {
+  margin-top: 2rem;
+}
+.details-div .or {
+  font-size: 16px;
+  color: rgb(54, 54, 54);
+  font-weight: 100;
+}
+.policy .or {
+  font-size: 14px;
+  color: rgb(22, 22, 22);
+  font-weight: 100;
+}
+.details-div h2 {
+  font-size: 20px;
+  margin-left: 1rem;
+  margin-bottom: 2rem;
+}
+.details-div input {
+  width: 350px;
+  height: 25px;
+  margin-left: 1rem;
+  padding-left: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-bottom: 2rem;
+}
+.policy p {
+  font-size: 12px;
+  margin-left: 1rem;
+  margin-bottom: 20px;
+}
+.container button {
+  width: 360px;
+  padding: 10px;
+  margin-left: 1rem;
+  margin-bottom: 30px;
+  background-color: #ff3c6f;
+  color: #fff;
+  border: none;
+}
+.last-p {
+  font-size: 12px;
+  margin-left: 1rem;
+  margin-bottom: 0px;
+}
