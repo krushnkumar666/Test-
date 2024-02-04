@@ -1,0 +1,68 @@
+body {
+  background: #fff;
+}
+.container .img-flat img {
+  width: 98%;
+  margin-left: 2rem;
+}
+.maxscore-main {
+  display: flex;
+  margin-left: 2rem;
+  margin-top: -1rem;
+  justify-content: center;
+}
+.maxscore-main img {
+  width: 50%;
+}
+.coupons-text img {
+  width: 100%;
+}
+.flat-200 {
+  display: flex;
+  justify-content: space-between;
+}
+.flat-200 img {
+  width: 50%;
+}
+.pair-with-flair img {
+  width: 100%;
+}
+.whole-img-part {
+  display: flex;
+  margin-left: 5px;
+}
+.whole-img-part img {
+  width: 16.6%;
+}
+.shop-by-cateogry img {
+  width: 100%;
+}
+.offer-whole-img {
+  display: flex;
+  flex-wrap: wrap;
+  padding-right: 2rem;
+}
+.offer-whole-img img {
+  width: 20%;
+}
+.more-knought img {
+  width: 100%;
+}
+.vertical-text p {
+  transform: rotate(270deg);
+  color: #fff;
+  margin-top: 10rem;
+  letter-spacing: 2px;
+}
+.vertical-text {
+  width: 40px;
+  text-wrap: nowrap;
+  height: 250px;
+  background: rgb(66, 62, 62);
+  margin-left: 82rem;
+  margin-top: -180rem;
+  position: fixed;
+}
+.vertical-text p i {
+  margin-top: -5rem;
+}
