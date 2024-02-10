@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.upper-nav {
+  background-color: black;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  padding-top: 1rem;
+}
+.upper-nav h3 {
+  color: #fff;
+  font-size: small;
+}
+.upper-nav i {
+  margin-left: 10px;
+}
+.nav-main {
+  display: flex;
+}
+.logo {
+  width: 25%;
+}
+.logo img {
+  aspect-ratio: 3/2;
+  object-fit: contain;
+  mix-blend-mode: color-burn;
+  width: 120px;
+  margin-left: 2rem;
+}
+.bar-chaild {
+  display: flex;
+  padding-top: 3.2rem;
+}
+.bar-chaild span {
+  margin-right: 1.2rem;
+}
+.bar-chaild span:nth-child(7) {
+  color: red;
+  font-weight: 500;
+}
+.bar-chaild .sp3 {
+  font-weight: 700;
+}
+.second-bar {
+  position: absolute;
+  display: flex;
+  margin-left: 65rem;
+  margin-top: 0.5rem;
+}
+.second-bar span {
+  margin-right: 1rem;
+  font-size: smaller;
+}
+
+.search {
+  padding-top: 2.5rem;
+  margin-left: 3rem;
+}
+.search input {
+  width: 200px;
+  height: 25px;
+  padding: 5px;
+  background: rgb(236, 239, 241);
+  border: none;
+}
+.search i {
+  margin-left: -1.7rem;
+}
+.pro-heart-bag {
+  padding-top: 3rem;
+  position: relative;
+  margin-left: 2rem;
+}
+.pro-heart-bag i {
+  margin-right: 1.5rem;
+  font-size: 25px;
+}
+.pro-heart-bag i:nth-child(1) {
+  margin-left: 5rem;
+}
+.pro-heart-bag .circle {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: rgb(255, 214, 25);
+  position: absolute;
+  margin-left: 1rem;
+  margin-top: -1rem;
+}
+.pro-heart-bag .circle span {
+  margin-left: 6px;
+}
+.the-brand-bar {
+  background-color: rgb(236, 239, 241);
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  padding-top: 1rem;
+  padding-bottom: 0.3rem;
+}
+.the-brand-bar h3 {
+  font-weight: 300;
+  font-size: 17px;
+}
+.the-brand-bar i {
+  position: absolute;
+  margin-left: 27rem;
+}
