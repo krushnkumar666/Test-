@@ -122,15 +122,4 @@ for (var i = 1; i <= count; i++) {
 }
 console.log(missing);
 //Q15 Given n pairs of parentheses, write a functin to generate all combinations of well-formed parentheses?
-function removeDuplicatechar() {
-    var arr = "hello";
-    var new_array = '';
-    for (var i = 0; i < arr.length; i++) {
-        if (new_array.indexOf(arr[i]) === -1) {
-            new_array += arr[i]
-        }
-    }
-    return new_array;
-}
 
-console.log(removeDuplicatechar());
