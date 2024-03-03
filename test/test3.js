@@ -1,3 +1,5 @@
+// Qestion 2
+
 var selectedRow = null;
 function onFormSubmit(event) {
   event.preventDefault();
@@ -35,3 +37,38 @@ resetForm();
 function resetForm() {
   document.getElementById("product").value = "";
 }
+
+
+
+
+
+// Question 1
+
+// function mergeIntervals(intervals) {
+//   if (intervals.length <= 1) {
+//     return intervals;
+//   }
+//   intervals.sort((a, b) => a.start - b.start);
+//   const merged = [intervals[0]];
+//   for (const currentInterval of intervals) {
+//     const lastMergedInterval = merged[merged.length - 1];
+//     if (currentInterval.start <= lastMergedInterval.end) {
+//       lastMergedInterval.end = Math.max(
+//         lastMergedInterval.end,
+//         currentInterval.end
+//       );
+//     } else {
+//       merged.push(currentInterval);
+//     }
+//   }
+//   return merged;
+// }
+// const inputIntervals = [
+//   { start: 1, end: 3 },
+//   { start: 2, end: 6 },
+//   { start: 8, end: 10 },
+//   { start: 15, end: 18 },
+// ];
+
+// const mergedIntervals = mergeIntervals(inputIntervals);
+// console.log(mergedIntervals);
